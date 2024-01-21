@@ -1,0 +1,17 @@
+*{
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+@font-face {
+  font-family: 'Roboto', sans-serif;
+  src: url(./assets/Fonts/Roboto-Regular.ttf);
+}
+
+body, html{
+  overflow-x: hidden;
+}
+
+body{
+  font-family: 'Roboto', sans-serif;
+}

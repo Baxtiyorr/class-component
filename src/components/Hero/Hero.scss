@@ -1,0 +1,31 @@
+.hero__content{
+    display: flex;
+    column-gap: 7px;
+
+    &-text{
+        margin-top: 41px;
+        & h1{
+            font-weight: 400;
+            font-size: 64px;
+            line-height: 75px;
+            color: white;
+        }
+        & button{
+            padding: 16px 45px;
+            background-color: #FFC929;
+            display: flex;
+            align-items: center;
+            column-gap: 8px;
+            margin-top: 148px;
+            border-radius: 16px;
+            border: 1px solid transparent;
+            font-weight: 400;
+            font-size: 16px;
+            line-height: 18px;
+            cursor: pointer;
+        }
+        & button:hover{
+            background-color: #edb91e;
+        }
+    }
+}

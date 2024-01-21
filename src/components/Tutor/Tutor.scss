@@ -1,0 +1,85 @@
+.tutor__card{
+    max-width: 224px;
+    padding: 15px;
+    background-color: white;
+    border-radius: 20px;
+    box-shadow: 1px 3px 5px 0px rgba(226,210,210,0.75);
+    -webkit-box-shadow: 1px 3px 5px 0px rgba(226,210,210,0.75);
+    -moz-box-shadow: 1px 3px 5px 0px rgba(226,210,210,0.75);
+cursor: pointer;
+    & img{
+        width: 100%;
+    }
+    & .name{
+        margin-top: 20px;
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        & h2{
+            font-weight: 400;
+            font-size: 19px;
+            line-height: 22px;
+        }
+        & span{
+            font-weight: 400;
+            font-size: 13px;
+            line-height: 15px;
+            display: flex;
+            column-gap: 4px;
+        }
+    }
+    & .country{
+        font-weight: 400;
+        font-size: 13px;
+        line-height: 15px;
+        margin-top: 8px;
+    }
+}
+.tutor__card-wrapper{
+    display: flex;
+    align-items: center;
+    column-gap: 24px;
+    position: absolute;
+    top: -112px;
+}
+.tutor__content{
+    position: relative;
+}
+.tutor__card:hover{
+    background-color: rgb(231, 227, 227);
+}
+.choise{
+    padding-top: 262px;
+    text-align: center;
+    & .title{
+        color: #4D95EA;
+        font-weight: 400;
+        font-size: 46px;
+        font-size: 48px;
+    }
+    & p{
+        font-weight: 400;
+        font-size: 13px;
+        line-height: 15px;
+        margin: 27px 0 24px 0;
+    }
+    & button{
+        margin: 0 auto;
+        padding: 16px 45px;
+        background-color: #FFC929;
+        display: flex;
+        align-items: center;
+        column-gap: 8px;
+        border-radius: 16px;
+        border: 1px solid transparent;
+        font-weight: 400;
+        font-size: 16px;
+        line-height: 18px;
+        cursor: pointer;
+    }
+
+    & button:hover{
+        background-color: #edb91e;
+    }
+    
+}

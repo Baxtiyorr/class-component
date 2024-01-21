@@ -1,0 +1,81 @@
+.plan__content{
+    margin-top: 184px;
+    &-title{
+        font-weight: 400;
+        font-size: 40px;
+        line-height: 46px;
+        color: #4D95EA;
+        text-align: center;
+        margin-bottom: 27px;
+    }
+}
+.plan__card{
+    
+    background-color: #F7F7F7;
+    max-width: 320px;
+    border-top-left-radius: 24px;
+    border-top-right-radius: 24px;
+    &-text{
+        padding: 38px 40px 0 40px;
+    }
+    & h2{
+        font-weight: 400;
+        font-size: 28px;
+        line-height: 32px;
+        text-align: center;
+        margin-bottom: 37px;
+    }
+    & h3{
+        font-weight: 400;
+        font-size: 15px;
+        line-height: 17px;
+        display: flex;
+        align-items: center;
+        column-gap: 12px;
+    }
+    .price{
+        padding: 24px 40px 24px 40px; 
+        background-color: #F0F0F0;
+        width: 100%;
+        & h4{
+            font-weight: 400;
+            font-size: 11px;
+            line-height: 12px;
+            margin-bottom: 3px;
+        }
+        & h5{
+            font-weight: 400;
+            font-size: 16px;
+            line-height: 18px;
+            margin-bottom: 18px;
+            & span{
+                font-weight: 400;
+                font-size: 28px;
+                line-height: 32px;
+            }
+        }
+        & button{
+            width: 100%;
+            padding: 16px 0;
+            border-radius: 16px;
+            background-color: #FFC929;
+            display: flex;
+            align-items: center;
+            column-gap: 8px;
+            font-weight: 400;
+            font-size: 16px;
+            line-height: 18px;
+            justify-content: center;
+            border: 1px solid transparent;
+            cursor: pointer;
+        }
+        & button:hover{
+            background-color: #edb91e;
+        }
+    }
+}
+.plan__card-wrapper{
+    display: flex;
+    align-items: center;
+    column-gap: 20px;
+}
